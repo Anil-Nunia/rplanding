@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,800&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ff-primary{
+  font-family: 'Poppins';
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cont{
+  content: '';
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bg_color_hero{
+  background: linear-gradient(174deg, rgba(2, 26, 56, 0.98) -12.41%, rgba(204, 51, 217, 0.98) 88.56%);
+}
+.font_color_welcome{
+  background: linear-gradient(165deg, #021A38 0.18%, #CC33D9 61.93%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn_bg_gradient{
+  background: linear-gradient(181deg, #021A38 -30.61%, #CC33D9 132.4%);
+  border-radius: 100px;
+}
+.btn_bg_gradient_sub{
+  background: linear-gradient(178deg, #FD749B -13.56%, #281AC8 158.3%);
+}
+.bg_card_colrs{
+  background: linear-gradient(368deg, #CC33D9 18.36%, #021A38 102.8%);
+}
+.cards{
+  border-radius: 15px;
+    border: 1px solid #888;
+    background: #FFF;
+}
+.cards:hover{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  z-index: 11;
+  position: relative;
 }
-
-.App-link {
-  color: #61dafb;
+.cards:hover .btn{
+  opacity: 1;
+  z-index: 1;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cards:hover .contc{
+  background: linear-gradient(178deg, #FD749B -13.56%, #281AC8 158.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  opacity: 1;
+  z-index: 1;
+}
+.font_color_gallary{
+  background: linear-gradient(178deg, #FD749B -13.56%, #281AC8 158.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card{
+  border-radius: 15px;
+    background: #C4C4C4;
+    color: (196, 196, 196, 1);
+}
+.overflow_hidden{
+  overflow: hidden;
+}
+.bg_creating{
+  background: linear-gradient(159deg, #CC33D9 30.96%, #021A38 104.01%);
+}
+.bg_footer{
+  background: linear-gradient(180deg, #CC33D9 -9.73%, #021A38 110.94%);
+}
+.border_input{
+  border: 1px solid #FD749B;
+}
+.btns:hover{
+    box-shadow: 0px 0px 12px 0px #021A38 !important;
 }
